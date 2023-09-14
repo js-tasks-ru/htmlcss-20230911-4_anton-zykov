@@ -1,0 +1,40 @@
+body, a {
+  color: white;
+}
+
+body, h1, h2, p {
+  margin: 0;
+}
+
+header {
+  background-color: red;
+  text-align: center;
+}
+
+nav {
+  background-color: orange;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+main {
+  background-color: green;
+  padding: 0.5rem;
+}
+
+article {
+  background-color: blue;
+  margin: 0.5rem;
+  padding: 1rem 0.5rem;
+}
+
+footer {
+  background-color: purple;
+  text-align: center;
+}
+
+footer p {
+  font-size: xx-large;
+}
