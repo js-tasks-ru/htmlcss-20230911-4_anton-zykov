@@ -1,6 +1,10 @@
 @import '../fonts/fonts.css';
 @import '../../03-lection1/01-button/';
 @import '../../03-lection1/02-accordion/';
+@import '../../components/page/page.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
 
 :root {
     --white: #ffffff;
