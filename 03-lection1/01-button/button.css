@@ -1,8 +1,5 @@
-@import '../../assets/css/main.css';
-
 .button {
-  width: 189px;
-  height: 48px;
+  padding: 15px;
   cursor: pointer;
   border-radius: 8px;
   transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out;
@@ -13,6 +10,10 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.button_hw2-width {
+  width: 189px;
 }
 
 .button:disabled {
