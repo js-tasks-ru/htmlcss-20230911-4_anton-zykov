@@ -1,4 +1,6 @@
 @import '../fonts/fonts.css';
+@import '../../03-lection1/01-button/';
+@import '../../03-lection1/02-accordion/';
 
 :root {
     --white: #ffffff;
