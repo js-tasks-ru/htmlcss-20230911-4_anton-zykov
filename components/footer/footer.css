@@ -1,5 +1,23 @@
 .footer {
+  margin: auto;
+  max-width: 640px;
+  padding: 72px 0 136px;
   text-align: center;
-  padding-left: 417px;
-  padding-right: 383px;
+
+  font-family: 'Inter';
+  font-style: normal;
+}
+
+.footer__title {
+  margin: 0 0 32px;
+  font-size: 38px;
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.footer__description {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
