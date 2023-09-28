@@ -10,8 +10,11 @@
 .card__content {
   flex-grow: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
+}
+
+.card__content_full-width {
+  flex-grow: 1;
 }
 
 .card__title {

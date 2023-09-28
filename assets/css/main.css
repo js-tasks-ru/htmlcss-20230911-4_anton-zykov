@@ -8,6 +8,7 @@
 @import '../../components/main/main.css';
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
+@import '../../04-lection2/01-histogram/histogram.css';
 
 :root {
     --white: #ffffff;
