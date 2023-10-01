@@ -5,7 +5,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: var(--grey-7);
+  background-color: rgba(196, 196, 196, 0.5);
 
   font-family: 'Inter';
   font-size: 16px;
@@ -15,7 +15,7 @@
 }
 
 .modal__container {
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
