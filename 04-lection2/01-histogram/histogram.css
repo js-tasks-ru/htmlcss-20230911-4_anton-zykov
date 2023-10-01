@@ -41,5 +41,5 @@
 
 .histogram__bar {
   background-color: var(--primary);
-  width: 100%;
+  flex-grow: 1;
 }
