@@ -1,6 +1,6 @@
 @import '../fonts/fonts.css';
-@import '../../03-lection1/01-button/';
-@import '../../03-lection1/02-accordion/';
+@import '../../03-lection1/01-button/button.css';
+@import '../../03-lection1/02-accordion/accordion.css';
 @import '../../components/card/card.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
@@ -18,17 +18,21 @@
     --deep-purple: #5028C6;
     --blue: #4263EB;
     --deep-blue: #2342C0;
+    --light-blue: rgba(160, 177, 245, 0.2);
     --red: #F03D3E;
     --grey-1: #F9FAFC;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #334D6E;
+    --grey-6: #90A0B7;
 
     --error: var(--red);
     --success: var(--blue);
 
     --primary: var(--blue);
     --primary-deep: var(--deep-blue);
+    --primary-light: var(--light-blue);
     --secondary: var(--purple);
     --secondary-deep: var(--deep-purple);
 }
