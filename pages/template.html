@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <link rel="stylesheet" href="./template.css">
     <title>Single component page</title>
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
-      <main class="main main_with-menu">
-        <div class="menu"></div>
-        <div class="component"></div>
+      <header class="header">
+        <div class="container"></div>
+      </header>
+      <main class="main">
+        <div class="container main_with-menu">
+          <div class="menu">
+            <h3 class="menu__title" href="">Components</h3>
+            <a class="menu__item" href="">Modal</a>
+            <a class="menu__item" href="">Tooltip</a>
+            <a class="menu__item" href="">Avatar</a>
+            <a class="menu__item" href="">Calendar</a>
+            <a class="menu__item menu__item_current" href="">Histogram</a>
+            <a class="menu__item" href="">Custom form elements</a>
+            <a class="menu__item" href="/">Main page</a>
+          </div>
+          <div class="component">
+            <h2 class="component__title">Histogram</h2>
+            <div class="histogram component__histogram">
+              <div class="histogram__row">
+                <p class="histogram__title">Total orders</p>
+                <a class="histogram__link" href="">View all</a>
+              </div>
+              <p class="histogram__total">50254</p>
+              <div id="presentation-histogram" class="histogram__bars"></div>
+            </div> 
+          </div>
+        </div>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <h4 class="footer__general">Reusable component library</h4>
+      </footer>
     </div>
   </body>
+  <script type="module" src="./index.js"></script>
 </html>
