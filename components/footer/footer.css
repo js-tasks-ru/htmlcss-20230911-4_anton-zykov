@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+.footer_white {
+  background-color: var(--white);
+}
+
 .footer__title {
   margin: 1rem 0 2rem;
   font-size: 2.375rem;
@@ -20,6 +24,7 @@
 }
 
 .footer__general {
+  margin: 0;
   color: var(--grey-3);
   font-size: 0.75rem;
   font-weight: 500;
