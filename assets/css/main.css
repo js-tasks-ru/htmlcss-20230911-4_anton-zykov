@@ -2,10 +2,12 @@
 @import '../../03-lection1/01-button/button.css';
 @import '../../03-lection1/02-accordion/accordion.css';
 @import '../../components/card/card.css';
+@import '../../components/component/component.css';
 @import '../../components/container/container.css';
 @import '../../components/footer/footer.css';
 @import '../../components/header/header.css';
 @import '../../components/main/main.css';
+@import '../../components/menu/menu.css';
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
 @import '../../04-lection2/01-histogram/histogram.css';
@@ -20,6 +22,7 @@
     --deep-blue: #2342C0;
     --light-blue: rgba(160, 177, 245, 0.2);
     --red: #F03D3E;
+    --orange: #D84910;
     --grey-1: #F9FAFC;
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
@@ -29,6 +32,7 @@
 
     --error: var(--red);
     --success: var(--blue);
+    --notification: var(--orange);
 
     --primary: var(--blue);
     --primary-deep: var(--deep-blue);

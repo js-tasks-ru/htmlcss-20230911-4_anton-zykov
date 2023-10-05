@@ -1,3 +1,4 @@
 .header {
-  padding: 96px 0 77px;
+  padding: 1.5rem 0;
+  background-color: var(--white);
 }
