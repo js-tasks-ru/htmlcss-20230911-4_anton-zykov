@@ -8,4 +8,5 @@
 
 .preview__card {
   flex: 0 0 auto;
+  text-decoration: none;
 }
