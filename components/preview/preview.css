@@ -1,12 +1,19 @@
 .preview {
-  padding: 68px 0 204px;
+  padding: 4.25rem 0 12.75rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 1.875rem;
 }
 
 .preview__card {
   flex: 0 0 auto;
   text-decoration: none;
+}
+
+@media screen and (width <= 576px) {
+  .preview {
+    padding: 1.375rem;
+    gap: 1rem;
+  }
 }
