@@ -10,4 +10,8 @@
   .page {
     row-gap: 0.375rem;
   }
+
+  .page_white {
+    background-color: var(--white);
+  }
 }

@@ -19,6 +19,7 @@
 @media screen and (width <= 576px) {
   .component {
     padding: 2rem 1rem;
+    background-color: transparent;
   }
 
   .component__title {
