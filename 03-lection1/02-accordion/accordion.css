@@ -21,6 +21,17 @@
 .accordion__summary {
   color: var(--black);
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion__expand {
+  width: 20px;
+  height: 10px;
+}
+
+.accordion__item[open]  .accordion__summary .accordion__expand {
+  transform: rotate(180deg);
 }
 
 .accordion__content {
