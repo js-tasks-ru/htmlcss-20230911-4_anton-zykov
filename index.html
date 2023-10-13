@@ -2,6 +2,7 @@
 <!-- Главная страница -->
 <html lang="ru">
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" href="./assets/css/normalize.css">
       <link rel="stylesheet" href="./assets/css/main.css">
     </head>
@@ -9,45 +10,69 @@
       <div class="page">
         <header class="header">
           <div class="container">
+            <div class="header__top">
+              <svg class="header__menu-icon">
+                <use href="./assets/images/icons-sprite.svg#menu"></use>
+              </svg>
+              <img class="header__logo" src="./assets/images/logo.svg" alt="logo">
+            </div>
             <h1 class="header__title">Reusable component library</h1>
           </div>
         </header>
         <main class="main">
           <div class="container">
             <div class="preview">
-              <div class="card preview__card">
-                <div class="card__content"></div>
-                <h4 class="card__title">Tooltip</h4>
-              </div>
-              <div class="card preview__card">
-                <div class="card__content"></div>
-                <h4 class="card__title">Custom form elements</h4>
-              </div>
-              <div class="card preview__card">
-                <div class="card__content"></div>
-                <h4 class="card__title">Calendar</h4>
-              </div>
-              <div class="card preview__card">
-                <div class="card__content"></div>
-                <h4 class="card__title">Modal dialog</h4>
-              </div>
-              <div class="card preview__card">
-                <div class="card__content">
-                  <div class="histogram card__content_full-width">
-                    <div class="histogram__row">
-                      <p class="histogram__title">Total orders</p>
-                      <a class="histogram__link" href="">View all</a>
-                    </div>
-                    <p class="histogram__total">50254</p>
-                    <div id="preview-histogram" class="histogram__bars"></div>
-                  </div>
+              <a class="preview__card" href="/pages/tooltip.html">
+                <div class="card">
+                  <div class="card__content"></div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Tooltip</h4>
                 </div>
-                <h4 class="card__title">Histogram</h4>
-              </div>
-              <div class="card preview__card">
-                <div class="card__content"></div>
-                <h4 class="card__title">Avatar</h4>
-              </div>
+              </a>
+              <a class="preview__card" href="/pages/form.html">
+                <div class="card">
+                  <div class="card__content"></div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Custom form elements</h4>
+                </div>
+              </a>
+              <a class="preview__card" href="/pages/calendar.html">
+                <div class="card">
+                  <div class="card__content"></div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Calendar</h4>
+                </div>
+              </a>
+              <a class="preview__card" href="/pages/modal.html">
+                <div class="card">
+                  <div class="card__content"></div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Modal dialog</h4>
+                </div>
+              </a>
+              <a class="preview__card" href="/pages/histogram.html">
+                <div class="card">
+                  <div class="card__content">
+                    <div class="histogram card__content_full-width">
+                      <div class="histogram__row">
+                        <p class="histogram__title">Total orders</p>
+                        <p class="histogram__link" href="">View all</p>
+                      </div>
+                      <p class="histogram__total">50254</p>
+                      <div id="preview-histogram" class="histogram__bars"></div>
+                    </div>
+                  </div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Histogram</h4>
+                </div>
+              </a>
+              <a class="preview__card" href="/pages/avatar.html">
+                <div class="card">
+                  <div class="card__content"></div>
+                  <div class="card__line"></div>
+                  <h4 class="card__title">Avatar</h4>
+                </div>
+              </a>
             </div>
           </div>
         </main>

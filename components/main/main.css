@@ -4,3 +4,9 @@
   grid-template-columns: auto 1fr;
   column-gap: 3.5rem;
 }
+
+@media screen and (width <= 576px) {
+  .main_with-menu {
+    display: block;
+  }
+}
