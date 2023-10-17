@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./input.css">
+  </head>
+  <body style="display: flex; flex-direction: column; gap: 1em;">
+    <label class="input">
+      <input class="input__text" type="text" placeholder="Placeholder">
+      <svg class="input__icon input__icon_success">
+        <use href="../../assets/images/icons-sprite.svg#success"></use>
+      </svg>
+      <svg class="input__icon input__icon_invalid">
+        <use href="../../assets/images/icons-sprite.svg#error"></use>
+      </svg>
+    </label>
 
-    </body>
+    <label class="input input_success">
+      <input class="input__text" type="text" value="Success">
+      <svg class="input__icon input__icon_success">
+        <use href="../../assets/images/icons-sprite.svg#success"></use>
+      </svg>
+      <svg class="input__icon input__icon_invalid">
+        <use href="../../assets/images/icons-sprite.svg#error"></use>
+      </svg>
+    </label>
+
+    <label class="input input_invalid">
+      <input class="input__text" type="text" value="Error">
+      <svg class="input__icon input__icon_success">
+        <use href="../../assets/images/icons-sprite.svg#success"></use>
+      </svg>
+      <svg class="input__icon input__icon_invalid">
+        <use href="../../assets/images/icons-sprite.svg#error"></use>
+      </svg>
+    </label>
+  </body>
 </html>
