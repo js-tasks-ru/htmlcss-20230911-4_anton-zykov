@@ -10,6 +10,7 @@
 @import '../../components/menu/menu.css';
 @import '../../components/page/page.css';
 @import '../../components/preview/preview.css';
+@import '../../components/tabs/tabs.css';
 @import '../../04-lection2/01-histogram/histogram.css';
 
 :root {

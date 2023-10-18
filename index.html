@@ -21,58 +21,70 @@
         </header>
         <main class="main">
           <div class="container">
-            <div class="preview">
-              <a class="preview__card" href="/pages/tooltip.html">
-                <div class="card">
-                  <div class="card__content"></div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Tooltip</h4>
-                </div>
-              </a>
-              <a class="preview__card" href="/pages/form.html">
-                <div class="card">
-                  <div class="card__content"></div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Custom form elements</h4>
-                </div>
-              </a>
-              <a class="preview__card" href="/pages/calendar.html">
-                <div class="card">
-                  <div class="card__content"></div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Calendar</h4>
-                </div>
-              </a>
-              <a class="preview__card" href="/pages/modal.html">
-                <div class="card">
-                  <div class="card__content"></div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Modal dialog</h4>
-                </div>
-              </a>
-              <a class="preview__card" href="/pages/histogram.html">
-                <div class="card">
-                  <div class="card__content">
-                    <div class="histogram card__content_full-width">
-                      <div class="histogram__row">
-                        <p class="histogram__title">Total orders</p>
-                        <p class="histogram__link" href="">View all</p>
-                      </div>
-                      <p class="histogram__total">50254</p>
-                      <div id="preview-histogram" class="histogram__bars"></div>
-                    </div>
+            <div class="tabs">
+              <input type="radio" name="tabs" id="all-tab" class="tabs__input" checked>
+              <input type="radio" name="tabs" id="complex-tab" class="tabs__input">
+              <input type="radio" name="tabs" id="simple-tab" class="tabs__input">
+
+              <div class="tabs__scroller">
+                <label for="all-tab" class="tabs__label">All components</label>
+                <label for="complex-tab" class="tabs__label">Complex</label>
+                <label for="simple-tab" class="tabs__label">Simple</label>
+              </div>
+          
+              <div class="preview">
+                <a class="preview__card tabs__content tabs__content_complex" href="/pages/tooltip.html">
+                  <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Tooltip</h4>
                   </div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Histogram</h4>
-                </div>
-              </a>
-              <a class="preview__card" href="/pages/avatar.html">
-                <div class="card">
-                  <div class="card__content"></div>
-                  <div class="card__line"></div>
-                  <h4 class="card__title">Avatar</h4>
-                </div>
-              </a>
+                </a>
+                <a class="preview__card tabs__content tabs__content_simple" href="/pages/form.html">
+                  <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Custom form elements</h4>
+                  </div>
+                </a>
+                <a class="preview__card tabs__content tabs__content_complex" href="/pages/calendar.html">
+                  <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Calendar</h4>
+                  </div>
+                </a>
+                <a class="preview__card tabs__content tabs__content_complex" href="/pages/modal.html">
+                  <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Modal dialog</h4>
+                  </div>
+                </a>
+                <a class="preview__card tabs__content tabs__content_complex" href="/pages/histogram.html">
+                  <div class="card">
+                    <div class="card__content">
+                      <div class="histogram card__content_full-width">
+                        <div class="histogram__row">
+                          <p class="histogram__title">Total orders</p>
+                          <p class="histogram__link" href="">View all</p>
+                        </div>
+                        <p class="histogram__total">50254</p>
+                        <div id="preview-histogram" class="histogram__bars"></div>
+                      </div>
+                    </div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Histogram</h4>
+                  </div>
+                </a>
+                <a class="preview__card tabs__content tabs__content_simple" href="/pages/avatar.html">
+                  <div class="card">
+                    <div class="card__content"></div>
+                    <div class="card__line"></div>
+                    <h4 class="card__title">Avatar</h4>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </main>
