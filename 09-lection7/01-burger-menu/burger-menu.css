@@ -1,7 +1,22 @@
 .burger-menu {
-  margin: 0 1em;
+  padding: 0 1em;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100vw;
+  left: -100vw;
+  transition: left 0.2s linear;
+}
+
+.burger-menu[data-open] {
+  left: 0;
+}
+
+@media screen and (min-width: 576px) {
+  .burger-menu {
+    display: none;
+  }
 }
 
 .burger-menu__section {
