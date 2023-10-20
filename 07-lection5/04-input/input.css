@@ -3,6 +3,7 @@
   width: 21.875em;
   height: 3.5em;
   border: solid 1px var(--grey-2);
+  transition: border-color 0.2s linear;
   border-radius: 8px;
   padding: 1em 1em 0.75em;
   display: flex;
@@ -11,6 +12,10 @@
 }
 
 .input:focus-within:not(.input_invalid) {
+  border-color: var(--primary);
+}
+
+.input_success {
   border-color: var(--primary);
 }
 
@@ -49,15 +54,12 @@
   color: var(--success);
 }
 
-.input_success .input__icon_success {
+.input_success .input__icon_success,
+.input_invalid .input__icon_invalid  {
   display: block;
 }
 
 .input__icon_invalid {
   display: none;
   color: var(--error);
-}
-
-.input_invalid .input__icon_invalid {
-  display: block;
 }
