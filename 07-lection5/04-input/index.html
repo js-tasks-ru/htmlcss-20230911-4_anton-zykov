@@ -7,33 +7,42 @@
   </head>
   <body style="display: flex; flex-direction: column; gap: 1em;">
     <label class="input">
-      <input class="input__text" type="text" placeholder="Placeholder">
-      <svg class="input__icon input__icon_success">
-        <use href="../../assets/images/icons-sprite.svg#success"></use>
-      </svg>
-      <svg class="input__icon input__icon_invalid">
-        <use href="../../assets/images/icons-sprite.svg#error"></use>
-      </svg>
+      <p class="input__title">Label</p>
+      <div class="input__field">
+        <input class="input__text" type="text" placeholder="Placeholder">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
     </label>
 
-    <label class="input input_success">
-      <input class="input__text" type="text" value="Success">
-      <svg class="input__icon input__icon_success">
-        <use href="../../assets/images/icons-sprite.svg#success"></use>
-      </svg>
-      <svg class="input__icon input__icon_invalid">
-        <use href="../../assets/images/icons-sprite.svg#error"></use>
-      </svg>
+    <label class="input">
+      <p class="input__title">Success</p>
+      <div class="input__field  input__field_success">
+        <input class="input__text" type="text" value="Success">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
     </label>
 
-    <label class="input input_invalid">
-      <input class="input__text" type="text" value="Error">
-      <svg class="input__icon input__icon_success">
-        <use href="../../assets/images/icons-sprite.svg#success"></use>
-      </svg>
-      <svg class="input__icon input__icon_invalid">
-        <use href="../../assets/images/icons-sprite.svg#error"></use>
-      </svg>
+    <label class="input">
+      <p class="input__title">Error</p>
+      <div class="input__field  input__field_invalid">
+        <input class="input__text" type="text" value="Error">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
     </label>
   </body>
 </html>
