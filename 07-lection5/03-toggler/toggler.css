@@ -21,6 +21,7 @@
   border: solid 1px var(--grey-2);
   border-radius: 14px;
   position: relative;
+  transition: background-color 0.2s linear;
 }
 
 .toggler__selector {
@@ -31,6 +32,9 @@
   position: absolute;
   top: 1px;
   left: 1px;
+  transition-property: left, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
 }
 
 .toggler__title {
