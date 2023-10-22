@@ -1,0 +1,73 @@
+.toggler {
+  display: inline-flex;
+}
+
+.toggler__input {
+  position: absolute;
+  opacity: 0;
+  left: -100vw;
+}
+
+.toggler__state {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+}
+
+.toggler__control {
+  box-sizing: border-box;
+  width: 52px;
+  height: 28px;
+  border: solid 1px var(--grey-2);
+  border-radius: 14px;
+  position: relative;
+  transition: background-color 0.2s linear;
+}
+
+.toggler__selector {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: var(--grey-2);
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  transition-property: left, background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+}
+
+.toggler__title {
+  font-family: 'Inter';
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--grey-4);
+}
+
+.toggler__input:focus ~ .toggler__state .toggler__title {
+  text-decoration: underline;
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.toggler__input:checked ~ .toggler__state .toggler__control .toggler__selector {
+  left: 25px;
+  background-color: var(--white);
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__control {
+  background-color: var(--grey-2);
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__control .toggler__selector {
+  background-color: var(--grey-3);
+}
+
+.toggler__input:disabled ~ .toggler__state .toggler__title {
+  color: var(--grey-2);
+}
