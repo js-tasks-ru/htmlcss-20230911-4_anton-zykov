@@ -10,13 +10,52 @@
     <div class="page page_white">
       <header class="header header_grey">
         <div class="header__top">
-          <svg class="header__menu-icon">
-            <use href="../assets/images/icons-sprite.svg#menu"></use>
-          </svg>
+          <label class="header__controller burger-menu__controller">
+            <input type="checkbox" class="burger-menu__input">
+            <div class="burger-menu__icon-container">
+              <svg class="burger-menu__icon" id="burger-menu-open">
+                <use href="../assets/images/icons-sprite.svg#menu"></use>
+              </svg>
+              <svg class="burger-menu__icon" id="burger-menu-close">
+                <use href="../assets/images/icons-sprite.svg#menu-close"></use>
+              </svg>
+            </div>
+          </label>
           <img class="header__logo" src="../assets/images/logo.svg" alt="logo">
         </div>
       </header>
       <main class="main">
+        <div id="burger-menu" class="burger-menu">
+          <div class="burger-menu__section">
+            <label class="toggler burger-menu__item_complex">
+              <span class="toggler__title">Dark mode</span>
+              <input type="checkbox" class="toggler__input" >
+              <div class="toggler__state">
+                <div class="toggler__control">
+                  <div class="toggler__selector"></div>
+                </div>
+              </div>
+            </label>
+          </div>
+          <div class="burger-menu__section">
+            <h4 class="burger-menu__title">Elements</h4>
+            <a href="" class="burger-menu__item">Avatar</a>
+            <a href="" class="burger-menu__item burger-menu__item_current">Custom form elements</a>
+            <a href="" class="burger-menu__item">Button</a>
+            <a href="" class="burger-menu__item">Avatar</a>
+            <a href="" class="burger-menu__item">Custom form elements</a>
+            <a href="" class="burger-menu__item">Button</a>
+          </div>
+          <div class="burger-menu__section">
+            <h4 class="burger-menu__title">Containers</h4>
+            <a href="" class="burger-menu__item">Avatar</a>
+            <a href="" class="burger-menu__item">Custom form elements</a>
+            <a href="" class="burger-menu__item">Button</a>
+            <a href="" class="burger-menu__item">Avatar</a>
+            <a href="" class="burger-menu__item">Custom form elements</a>
+            <a href="" class="burger-menu__item">Button</a>
+          </div>
+        </div>
         <div class="container main_with-menu">
           <div class="menu">
             <h3 class="menu__title" href="">Components</h3>
