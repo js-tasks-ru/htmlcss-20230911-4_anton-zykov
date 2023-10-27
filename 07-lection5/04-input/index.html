@@ -6,10 +6,10 @@
     <link rel="stylesheet" href="./input.css">
   </head>
   <body style="display: flex; flex-direction: column; gap: 1em;">
-    <label class="input">
-      <p class="input__title">Label</p>
+    <div class="input">
+      <label for="input-default" class="input__title">Label</label>
       <div class="input__field">
-        <input class="input__text" type="text" placeholder="Placeholder">
+        <input id="input-default" class="input__text" type="text" placeholder="Placeholder">
         <svg class="input__icon input__icon_success">
           <use href="../../assets/images/icons-sprite.svg#success"></use>
         </svg>
@@ -17,12 +17,12 @@
           <use href="../../assets/images/icons-sprite.svg#error"></use>
         </svg>
       </div>
-    </label>
+    </div>
 
-    <label class="input">
-      <p class="input__title">Success</p>
+    <div class="input">
+      <label for="input-success" class="input__title">Success</label>
       <div class="input__field  input__field_success">
-        <input class="input__text" type="text" value="Success">
+        <input id="input-success" class="input__text" type="text" value="Success">
         <svg class="input__icon input__icon_success">
           <use href="../../assets/images/icons-sprite.svg#success"></use>
         </svg>
@@ -30,12 +30,12 @@
           <use href="../../assets/images/icons-sprite.svg#error"></use>
         </svg>
       </div>
-    </label>
+    </div>
 
-    <label class="input">
-      <p class="input__title">Error</p>
+    <div class="input">
+      <label for="input-error" class="input__title">Error</label>
       <div class="input__field  input__field_invalid">
-        <input class="input__text" type="text" value="Error">
+        <input id="input-error" class="input__text" type="text" value="Error">
         <svg class="input__icon input__icon_success">
           <use href="../../assets/images/icons-sprite.svg#success"></use>
         </svg>
@@ -43,6 +43,6 @@
           <use href="../../assets/images/icons-sprite.svg#error"></use>
         </svg>
       </div>
-    </label>
+    </div>
   </body>
 </html>
