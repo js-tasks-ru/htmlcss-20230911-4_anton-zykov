@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <!-- Страница с полем ввода -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./input.css">
-    </head>
-    <body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./input.css">
+  </head>
+  <body style="display: flex; flex-direction: column; gap: 1em;">
+    <div class="input">
+      <label for="input-default" class="input__title">Label</label>
+      <div class="input__field">
+        <input id="input-default" class="input__text" type="text" placeholder="Placeholder">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
+    </div>
 
-    </body>
+    <div class="input input_success">
+      <label for="input-success" class="input__title">Success</label>
+      <div class="input__field">
+        <input id="input-success" class="input__text" type="text" value="Success">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
+    </div>
+
+    <div class="input input_invalid">
+      <label for="input-error" class="input__title">Error</label>
+      <div class="input__field">
+        <input id="input-error" class="input__text" type="text" value="Error">
+        <svg class="input__icon input__icon_success">
+          <use href="../../assets/images/icons-sprite.svg#success"></use>
+        </svg>
+        <svg class="input__icon input__icon_invalid">
+          <use href="../../assets/images/icons-sprite.svg#error"></use>
+        </svg>
+      </div>
+    </div>
+  </body>
 </html>
