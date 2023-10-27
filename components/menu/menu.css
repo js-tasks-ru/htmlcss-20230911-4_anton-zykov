@@ -5,6 +5,12 @@
   font-weight: 400;
 }
 
+@media screen and (width <= 576px) {
+  .menu {
+    display: none;
+  }
+}
+
 .menu__title {
   margin: 0 0 1rem;
   color: #000;
