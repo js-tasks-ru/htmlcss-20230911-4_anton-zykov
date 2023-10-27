@@ -29,15 +29,15 @@
   align-items: center;
 }
 
-.input__field:focus-within:not(.input__field_invalid) {
+.input:not(.input_invalid) .input__field:focus-within {
   border-color: var(--primary);
 }
 
-.input__field_success {
+.input_success .input__field {
   border-color: var(--primary);
 }
 
-.input__field_invalid {
+.input_invalid .input__field {
   border-color: var(--red);
 }
 
@@ -72,8 +72,8 @@
   color: var(--success);
 }
 
-.input__field_success .input__icon_success,
-.input__field_invalid .input__icon_invalid  {
+.input_success .input__field .input__icon_success,
+.input_invalid .input__field .input__icon_invalid  {
   display: block;
 }
 
